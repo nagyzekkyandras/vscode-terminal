@@ -89,14 +89,7 @@
     },
     "configuration": {
       "type": "object",
-      "title": "Terminal configuration",
-      "properties": {
-        "terminal.enableAppInsights": {
-          "type": "boolean",
-          "default": true,
-          "description": "Whether to enable AppInsights to track user telemetry data."
-        }
-      }
+      "title": "Terminal configuration"
     }
   },
   "scripts": {
@@ -106,7 +99,6 @@
     "watch": "tsc -watch -p ./"
   },
   "dependencies": {
-    "applicationinsights": "^3.1.0",
     "tree-kill": "^1.1.0"
   },
   "devDependencies": {

@@ -4,7 +4,6 @@
 import * as vscode from 'vscode';
 import * as os from 'os';
 import * as path from 'path';
-import { AppInsightsClient } from './appInsightsClient';
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
@@ -49,18 +48,15 @@ class Terminal {
     private _outputChannel: vscode.OutputChannel;
     private _isRunning: boolean;
     private _process;
-    private _appInsightsClient: AppInsightsClient;
 
     constructor() {
         this._outputChannel = vscode.window.createOutputChannel('Terminal');
         this._outputChannel.appendLine('[Notice] This extension will have limited updates in the future, try Code Runner: https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner with more functions and supports!');
         this._outputChannel.appendLine('');
         this.createStatusBarItem();
-        this._appInsightsClient = new AppInsightsClient();
     }
 
     public run(): void {
-        this._appInsightsClient.sendEvent("run");
         if (this._isRunning) {
             vscode.window.showInformationMessage('Command(s) are already running!');
             return;
@@ -77,7 +73,6 @@ class Terminal {
     }
 
     public stop(): void {
-        this._appInsightsClient.sendEvent("stop");
         if (this._isRunning) {
             this._isRunning = false;
             let kill = require('tree-kill');
@@ -98,7 +93,6 @@ class Terminal {
             filePath = fileUri.fsPath;
         }
 
-        this._appInsightsClient.sendEvent("open");
         let terminal = vscode.window.createTerminal();
         terminal.show(false);
         filePath = this.getFilePathForBashOnWindows(filePath);
@@ -109,7 +103,6 @@ class Terminal {
 
     public toggle(): void {
         vscode.commands.executeCommand("workbench.action.terminal.toggleTerminal");
-        this._appInsightsClient.sendEvent("toggle");
     }
 
     private getCommands(): string[] {
