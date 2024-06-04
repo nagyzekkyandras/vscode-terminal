@@ -109,7 +109,7 @@
     "tree-kill": "^1.1.0"
   },
   "devDependencies": {
-    "typescript": "^1.8.5",
+    "typescript": "^5.4.5",
     "vscode": "^0.11.0"
   }
 }
