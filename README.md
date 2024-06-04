@@ -1,3 +1,8 @@
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/summary/new_code?id=nagyzekkyandras_vscode-terminal)
+
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=nagyzekkyandras_vscode-terminal&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=nagyzekkyandras_vscode-terminal)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=nagyzekkyandras_vscode-terminal&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=nagyzekkyandras_vscode-terminal)
+
 # Terminal
 
 Run terminal command directly in Text Editor
