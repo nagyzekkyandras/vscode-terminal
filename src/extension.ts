@@ -11,7 +11,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     // Use the console to output diagnostic information (console.log) and errors (console.error)
     // This line of code will only be executed once when your extension is activated
-    console.log('Congratulations, your extension "terminal" is now active!');
+    //console.log('Congratulations, your extension "terminal" is now active!');
 
     let terminal = new Terminal();
 
@@ -51,7 +51,7 @@ class Terminal {
 
     constructor() {
         this._outputChannel = vscode.window.createOutputChannel('Terminal');
-        this._outputChannel.appendLine('[Notice] This extension will have limited updates in the future, try Code Runner: https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner with more functions and supports!');
+        this._outputChannel.appendLine('[Notice] This extension will have limited updates in the future.');
         this._outputChannel.appendLine('');
         this.createStatusBarItem();
     }

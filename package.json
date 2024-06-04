@@ -103,6 +103,6 @@
   },
   "devDependencies": {
     "typescript": "^5.4.5",
-    "vscode": "^1.1.37"
+    "vscode": "^1.1.34"
   }
 }
