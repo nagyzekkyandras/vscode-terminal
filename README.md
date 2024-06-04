@@ -3,6 +3,8 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=nagyzekkyandras_vscode-terminal&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=nagyzekkyandras_vscode-terminal)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=nagyzekkyandras_vscode-terminal&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=nagyzekkyandras_vscode-terminal)
 
+![Build Status](https://github.com/nagyzekkyandras/vscode-terminal/actions/workflows/build.yml/badge.svg)
+
 # Terminal
 
 Run terminal command directly in Text Editor
