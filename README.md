@@ -30,6 +30,10 @@ Forked from [formulahendry/vscode-terminal](https://github.com/formulahendry/vsc
 ![Toggle](images/toggle.png)
 
 ## Change Log
+### 0.1.0 (2024-06-04)
+* Dependency updates
+* Removed application-insights
+
 ### 0.0.10 (2017-07-22)
 * [#10](https://github.com/formulahendry/vscode-terminal/issues/10): Handle case-insensitive bash path
 
