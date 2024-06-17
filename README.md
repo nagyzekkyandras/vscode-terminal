@@ -37,6 +37,10 @@ Forked from [formulahendry/vscode-terminal](https://github.com/formulahendry/vsc
 ![Toggle](images/toggle.png)
 
 ## Change Log
+### 0.1.1 (2024-06-17)
+* Bump @types/node from 20.14.1 to 20.14.2
+* Bump @types/vscode from 1.89.0 to 1.90.0
+
 ### 0.1.0 (2024-06-04)
 * Dependency updates
 * Removed application-insights
