@@ -12,6 +12,9 @@ Run terminal command directly in Text Editor
 ## Notice
 Forked from [formulahendry/vscode-terminal](https://github.com/formulahendry/vscode-terminal).
 
+
+Marketplace: https://marketplace.visualstudio.com/items?itemName=nagyzekkyandras.basic-terminal
+
 ## Features
 
 * Run all the commands in Text Editor
