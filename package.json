@@ -100,9 +100,9 @@
     "tree-kill": "1.2.2"
   },
   "devDependencies": {
-    "@types/node": "22.9.0",
-    "@types/mocha": "^10.0.9",
     "typescript": "5.8.2"
+    "@types/node": "22.13.14",
+    "@types/mocha": "^10.0.10",
     "@types/vscode": "^1.98.0",
   }
 }
