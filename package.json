@@ -2,11 +2,11 @@
   "name": "basic-terminal",
   "displayName": "Basic Terminal",
   "description": "Basic Terminal for Visual Studio Code",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "nagyzekkyandras",
   "icon": "images/logo.png",
   "engines": {
-    "vscode": "^1.90.0"
+    "vscode": "^1.98.0"
   },
   "categories": [
     "Other",
