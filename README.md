@@ -34,7 +34,8 @@ Open VSX registry: https://open-vsx.org/extension/nagyzekkyandras/basic-terminal
 
 ## Change Log
 ### 0.1.2
-* Bump vscode from 1.90.0 to 1.98.0
+* Bump @types/vscode from 1.90.0 to 1.109.0
+* Bump @types/node from 22.13.14 to 25.2.2
 * Added Open VSX registry
 
 ### 0.1.1 (2024-06-17)
