@@ -1,10 +1,3 @@
-[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/summary/new_code?id=nagyzekkyandras_vscode-terminal)
-
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=nagyzekkyandras_vscode-terminal&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=nagyzekkyandras_vscode-terminal)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=nagyzekkyandras_vscode-terminal&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=nagyzekkyandras_vscode-terminal)
-
-![Build Status](https://github.com/nagyzekkyandras/vscode-terminal/actions/workflows/build.yml/badge.svg)
-
 # Terminal
 
 Run terminal command directly in Text Editor
@@ -12,8 +5,8 @@ Run terminal command directly in Text Editor
 ## Notice
 Forked from [formulahendry/vscode-terminal](https://github.com/formulahendry/vscode-terminal).
 
-
 Marketplace: https://marketplace.visualstudio.com/items?itemName=nagyzekkyandras.basic-terminal
+Open VSX registry: https://open-vsx.org/extension/nagyzekkyandras/basic-terminal
 
 ## Features
 
@@ -40,6 +33,10 @@ Marketplace: https://marketplace.visualstudio.com/items?itemName=nagyzekkyandras
 ![Toggle](images/toggle.png)
 
 ## Change Log
+### 0.1.2
+* Bump vscode from 1.90.0 to 1.98.0
+* Added Open VSX registry
+
 ### 0.1.1 (2024-06-17)
 * Bump @types/node from 20.14.1 to 20.14.2
 * Bump @types/vscode from 1.89.0 to 1.90.0
