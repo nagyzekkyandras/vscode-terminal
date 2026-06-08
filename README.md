@@ -5,8 +5,8 @@ Run terminal command directly in Text Editor
 ## Notice
 Forked from [formulahendry/vscode-terminal](https://github.com/formulahendry/vscode-terminal).
 
-
 Marketplace: https://marketplace.visualstudio.com/items?itemName=nagyzekkyandras.basic-terminal
+Open VSX registry: https://open-vsx.org/extension/nagyzekkyandras/basic-terminal
 
 ## Features
 
@@ -33,6 +33,10 @@ Marketplace: https://marketplace.visualstudio.com/items?itemName=nagyzekkyandras
 ![Toggle](images/toggle.png)
 
 ## Change Log
+### 0.1.2
+* Bump vscode from 1.90.0 to 1.98.0
+* Added Open VSX registry
+
 ### 0.1.1 (2024-06-17)
 * Bump @types/node from 20.14.1 to 20.14.2
 * Bump @types/vscode from 1.89.0 to 1.90.0
