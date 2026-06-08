@@ -6,6 +6,7 @@ Run terminal command directly in Text Editor
 Forked from [formulahendry/vscode-terminal](https://github.com/formulahendry/vscode-terminal).
 
 Marketplace: https://marketplace.visualstudio.com/items?itemName=nagyzekkyandras.basic-terminal
+
 Open VSX registry: https://open-vsx.org/extension/nagyzekkyandras/basic-terminal
 
 ## Features
